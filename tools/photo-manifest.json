@@ -208,5 +208,113 @@
     "category": "outdoor",
     "type": "camping",
     "batch": 2
+  },
+  {
+    "name": "floor-mats-bmw-quilted",
+    "title": "Rubber Floor Mats \u2013 BMW Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "solar-motion-sensor-light",
+    "title": "Solar LED Wall Light with Motion Sensor",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-mercedes-red-ring",
+    "title": "Rubber Floor Mats \u2013 Mercedes-Benz Red Ring",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-mercedes-grid",
+    "title": "Rubber Floor Mats \u2013 Mercedes-Benz Grid Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "cam-buckle-strap-pink",
+    "title": "Cam Buckle Tie-Down Strap (Pink)",
+    "category": "truck",
+    "type": "tie-downs",
+    "batch": 3
+  },
+  {
+    "name": "car-seat-headrest-hook",
+    "title": "Car Seat Headrest Hook (4 Hooks)",
+    "category": "car",
+    "type": "interior",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-bmw-quilted-2",
+    "title": "Rubber Floor Mats \u2013 BMW Quilted Design (photo 2)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3,
+    "possibleDuplicateOf": "floor-mats-bmw-quilted"
+  },
+  {
+    "name": "retro-camping-lantern",
+    "title": "Retro LED Camping Lantern",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-mercedes-quilted",
+    "title": "Rubber Floor Mats \u2013 Mercedes-Benz Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-mercedes-amg",
+    "title": "Rubber Floor Mats \u2013 Mercedes AMG",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-mercedes-quilted-2",
+    "title": "Rubber Floor Mats \u2013 Mercedes-Benz Quilted Design (photo 2)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3,
+    "possibleDuplicateOf": "floor-mats-mercedes-quilted"
+  },
+  {
+    "name": "floor-mats-mercedes-grid-2",
+    "title": "Rubber Floor Mats \u2013 Mercedes-Benz Grid Design (photo 2)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3,
+    "possibleDuplicateOf": "floor-mats-mercedes-grid"
+  },
+  {
+    "name": "floor-mats-vw-golf",
+    "title": "Rubber Floor Mats \u2013 VW Golf (Red Logo)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-bmw-red-ring",
+    "title": "Rubber Floor Mats \u2013 BMW Red Ring M Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
+  },
+  {
+    "name": "floor-mats-bmw-m",
+    "title": "Rubber Floor Mats \u2013 BMW M Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 3
   }
 ]
