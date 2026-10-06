@@ -67,6 +67,7 @@ PAGE_INIT.shop = () => {
     q: params.get("q") || "",
     category: params.get("category") || "",
     types: new Set((params.get("type") || "").split(",").filter(Boolean)),
+    brands: new Set((params.get("brand") || "").split(",").filter(Boolean)),
     min: params.get("min") || "",
     max: params.get("max") || "",
     sort: params.get("sort") || "featured",
@@ -119,6 +120,28 @@ PAGE_INIT.shop = () => {
       .join("");
   }
 
+  // Car brand filter (floor mats, oil filters...). Only shows brands present in the current selection.
+  function renderBrandFilter() {
+    const counts = {};
+    PRODUCTS.forEach((p) => {
+      if (!p.brand) return;
+      if (state.category && p.category !== state.category) return;
+      if (state.types.size && !state.types.has(p.type)) return;
+      counts[p.brand] = (counts[p.brand] || 0) + 1;
+    });
+    const brands = Object.keys(counts).sort((a, b) => (a === "Universal") - (b === "Universal") || a.localeCompare(b));
+    $("#filter-brand-group").hidden = !brands.length;
+    $("#filter-brand").innerHTML = brands
+      .map(
+        (b) => `
+        <label class="filter-option">
+          <input type="checkbox" value="${esc(b)}" ${state.brands.has(b) ? "checked" : ""}>
+          ${esc(b)}<span class="count">${counts[b]}</span>
+        </label>`
+      )
+      .join("");
+  }
+
   function renderPricePresets() {
     $("#filter-price").innerHTML = PRICE_PRESETS.map(
       (p, i) => `
@@ -136,10 +159,13 @@ PAGE_INIT.shop = () => {
     const list = PRODUCTS.filter((p) => {
       if (state.category && p.category !== state.category) return false;
       if (state.types.size && !state.types.has(p.type)) return false;
+      if (state.brands.size && !state.brands.has(p.brand)) return false;
+      if ((!isNaN(min) || !isNaN(max)) && !p.price) return false;
       if (!isNaN(min) && p.price < min) return false;
       if (!isNaN(max) && p.price > max) return false;
       if (q) {
-        const haystack = [p.name, p.description, typeName(p.category, p.type), getCategory(p.category).name]
+        const cat = getCategory(p.category);
+        const haystack = [p.name, p.brand, p.description, typeName(p.category, p.type), cat ? cat.name : ""]
           .join(" ")
           .toLowerCase();
         if (!q.split(/\s+/).every((word) => haystack.includes(word))) return false;
@@ -150,8 +176,9 @@ PAGE_INIT.shop = () => {
     const sorters = {
       featured: (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0),
       newest: (a, b) => (b.added || "").localeCompare(a.added || ""),
-      "price-asc": (a, b) => a.price - b.price,
-      "price-desc": (a, b) => b.price - a.price,
+      // products without a price go last
+      "price-asc": (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity),
+      "price-desc": (a, b) => (b.price ?? -1) - (a.price ?? -1),
       name: (a, b) => a.name.localeCompare(b.name),
     };
     return list.sort(sorters[state.sort] || sorters.featured);
@@ -165,6 +192,7 @@ PAGE_INIT.shop = () => {
       const cat = CATEGORIES.find((c) => c.types.some((x) => x.id === t));
       if (cat) chips.push({ key: `type:${t}`, label: typeName(cat.id, t) });
     });
+    state.brands.forEach((b) => chips.push({ key: `brand:${b}`, label: b }));
     if (state.min || state.max) {
       const label = state.min && state.max ? `$${state.min} – $${state.max}` : state.min ? `$${state.min}+` : `Up to $${state.max}`;
       chips.push({ key: "price", label });
@@ -177,6 +205,7 @@ PAGE_INIT.shop = () => {
     if (state.q) p.set("q", state.q);
     if (state.category) p.set("category", state.category);
     if (state.types.size) p.set("type", [...state.types].join(","));
+    if (state.brands.size) p.set("brand", [...state.brands].join(","));
     if (state.min) p.set("min", state.min);
     if (state.max) p.set("max", state.max);
     if (state.sort !== "featured") p.set("sort", state.sort);
@@ -215,6 +244,7 @@ PAGE_INIT.shop = () => {
   function refreshAll() {
     renderCategoryFilter();
     renderTypeFilter();
+    renderBrandFilter();
     renderPricePresets();
     minInput.value = state.min;
     maxInput.value = state.max;
@@ -245,6 +275,7 @@ PAGE_INIT.shop = () => {
       const cat = getCategory(state.category);
       if (cat) state.types = new Set([...state.types].filter((t) => cat.types.some((x) => x.id === t)));
       renderTypeFilter();
+      renderBrandFilter();
     } else if (input.name === "price") {
       const preset = PRICE_PRESETS[+input.value];
       state.min = preset.min;
@@ -253,6 +284,9 @@ PAGE_INIT.shop = () => {
       maxInput.value = state.max;
     } else if (input.closest("#filter-type")) {
       input.checked ? state.types.add(input.value) : state.types.delete(input.value);
+      renderBrandFilter();
+    } else if (input.closest("#filter-brand")) {
+      input.checked ? state.brands.add(input.value) : state.brands.delete(input.value);
     } else if (input === minInput || input === maxInput) {
       state.min = minInput.value;
       state.max = maxInput.value;
@@ -268,10 +302,12 @@ PAGE_INIT.shop = () => {
     if (key === "all") {
       Object.assign(state, { q: "", category: "", min: "", max: "" });
       state.types.clear();
+      state.brands.clear();
     } else if (key === "q") state.q = "";
     else if (key === "category") state.category = "";
     else if (key === "price") state.min = state.max = "";
     else if (key.startsWith("type:")) state.types.delete(key.slice(5));
+    else if (key.startsWith("brand:")) state.brands.delete(key.slice(6));
     refreshAll();
   });
 
@@ -293,20 +329,44 @@ function initCategoryPage() {
   $("#type-sections").innerHTML = cat.types
     .map((t) => {
       const items = products.filter((p) => p.type === t.id);
+      const brands = [...new Set(items.map((p) => p.brand).filter(Boolean))].sort(
+        (a, b) => (a === "Universal") - (b === "Universal") || a.localeCompare(b)
+      );
+      const brandChips =
+        brands.length > 1
+          ? `<div class="chips brand-chips" data-section="${t.id}">
+              <button class="chip is-active" type="button" data-brand="">All brands</button>
+              ${brands.map((b) => `<button class="chip" type="button" data-brand="${esc(b)}">${esc(b)}</button>`).join("")}
+            </div>`
+          : "";
       return `
         <section class="type-section" id="${t.id}">
           <div class="type-section__head">
-            <h2>${esc(t.name)}</h2>
+            <h2>${esc(t.name)} <span>${items.length}</span></h2>
             <a class="link-arrow" href="shop.html?category=${cat.id}&type=${t.id}">View in shop ${icon("arrow")}</a>
           </div>
+          ${brandChips}
           ${
             items.length
-              ? `<div class="product-grid product-grid--4">${items.map(productCard).join("")}</div>`
+              ? `<div class="product-grid product-grid--4" data-grid="${t.id}">${items.map(productCard).join("")}</div>`
               : `<div class="empty"><p>New ${esc(t.name.toLowerCase())} arriving soon. <a class="link-arrow" href="${waLink(`Hi ${STORE.name}, I'm looking for ${t.name.toLowerCase()}.`)}" target="_blank" rel="noopener">Ask us on WhatsApp</a></p></div>`
           }
         </section>`;
     })
     .join("");
+
+  // Brand chips: filter a section (e.g. floor mats) by car brand
+  $("#type-sections").addEventListener("click", (e) => {
+    const chip = e.target.closest("[data-brand]");
+    if (!chip) return;
+    const wrap = chip.closest(".brand-chips");
+    const type = wrap.dataset.section;
+    $$(".chip", wrap).forEach((c) => c.classList.toggle("is-active", c === chip));
+    const items = products.filter((p) => p.type === type && (!chip.dataset.brand || p.brand === chip.dataset.brand));
+    const grid = $(`[data-grid="${type}"]`);
+    grid.innerHTML = items.map(productCard).join("");
+    observeReveals(grid);
+  });
 
   // Highlight the chip of the section currently on screen
   const chips = $$("#subnav-chips .chip");
@@ -346,8 +406,15 @@ PAGE_INIT.product = () => {
     return;
   }
 
-  const cat = getCategory(p.category);
+  const cat = getCategory(p.category) || { name: "Shop", page: "shop.html" };
   const out = p.inStock === false;
+  const priced = Boolean(p.price);
+  const thumbs =
+    p.images.length > 1
+      ? `<div class="thumbs">${p.images
+          .map((src, i) => `<button type="button" class="thumb ${i ? "" : "is-active"}" data-img="${esc(src)}"><img src="${esc(src)}" alt=""></button>`)
+          .join("")}</div>`
+      : "";
   document.title = `${p.name} | ${STORE.name} ${STORE.subtitle}`;
 
   root.innerHTML = `
@@ -357,12 +424,15 @@ PAGE_INIT.product = () => {
       <a href="${cat.page}#${p.type}">${esc(typeName(p.category, p.type))}</a>
     </nav>
     <div class="product-detail">
-      <div class="product-gallery">
-        ${productBadge(p)}
-        <img src="${esc(p.image)}" alt="${esc(p.name)}" width="800" height="800">
+      <div class="gallery-col">
+        <div class="product-gallery">
+          ${productBadge(p)}
+          <img id="main-img" src="${esc(p.image)}" alt="${esc(p.name)}" width="800" height="800">
+        </div>
+        ${thumbs}
       </div>
       <div class="product-info">
-        <div class="product-card__cat">${esc(cat.name)} · ${esc(typeName(p.category, p.type))}</div>
+        <div class="product-card__cat">${esc(cat.name)} · ${esc(typeName(p.category, p.type))}${p.brand ? ` · ${esc(p.brand)}` : ""}</div>
         <h1>${esc(p.name)}</h1>
         <div class="price">${priceHtml(p)}</div>
         <div class="stock ${out ? "stock--out" : ""}">${out ? "Out of stock — ask us about availability" : "In stock · Ready for pickup today"}</div>
@@ -373,7 +443,12 @@ PAGE_INIT.product = () => {
             ? `<ul class="feature-list">${p.features.map((f) => `<li>${icon("check")}${esc(f)}</li>`).join("")}</ul>`
             : ""
         }
-        <div class="buy-row">
+        ${
+          priced
+            ? ""
+            : `<div class="notice" style="margin:0 0 20px">${icon("info")}<span>Message or call us for the current price and availability.</span></div>`
+        }
+        <div class="buy-row" ${priced && !out ? "" : "hidden"}>
           <div class="qty">
             <button type="button" data-step="-1" aria-label="Decrease quantity">${icon("minus")}</button>
             <input id="detail-qty" type="number" min="1" max="99" value="1" aria-label="Quantity">
@@ -384,7 +459,7 @@ PAGE_INIT.product = () => {
           </button>
         </div>
         <div class="contact-row">
-          <a class="btn btn--whatsapp" href="${waLink(`Hi ${STORE.name}, I'm interested in: ${p.name} (${money(p.price)}). Is it available?`)}" target="_blank" rel="noopener">${icon("whatsapp")} Ask on WhatsApp</a>
+          <a class="btn btn--whatsapp" href="${priced ? waLink(`Hi ${STORE.name}, I'm interested in: ${p.name} (${money(p.price)}). Is it available?`) : askPriceLink(p)}" target="_blank" rel="noopener">${icon("whatsapp")} ${priced ? "Ask on WhatsApp" : "Ask price on WhatsApp"}</a>
           <a class="btn btn--outline" href="${telLink()}">${icon("phone")} Call the shop</a>
         </div>
         <div class="assurances">
@@ -396,6 +471,12 @@ PAGE_INIT.product = () => {
     </div>`;
 
   root.addEventListener("click", (e) => {
+    const thumb = e.target.closest("[data-img]");
+    if (thumb) {
+      $("#main-img").src = thumb.dataset.img;
+      $$(".thumb", root).forEach((t) => t.classList.toggle("is-active", t === thumb));
+      return;
+    }
     const step = e.target.closest("[data-step]");
     if (!step) return;
     const input = $("#detail-qty");

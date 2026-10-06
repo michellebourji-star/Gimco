@@ -1,7 +1,7 @@
 /* ==========================================================================
    Core site script: shared header/footer, cart, product cards, helpers.
-   You normally don't need to edit this file — change products in
-   js/products.js and business details in js/config.js.
+   You normally don't need to edit this file — change products and prices
+   in products.csv and business details in js/config.js.
    ========================================================================== */
 
 /* -------------------------------- Icons -------------------------------- */
@@ -11,6 +11,7 @@ const ICONS = {
   car: '<path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/>',
   truck: '<path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/>',
   wrench: '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
+  tent: '<path d="M3.5 21 14 3"/><path d="M20.5 21 10 3"/><path d="M15.5 21 12 15l-3.5 6"/><path d="M2 21h20"/>',
   bag: '<path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>',
   cart: '<circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>',
   menu: '<line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>',
@@ -54,7 +55,7 @@ function icon(name, cls = "") {
   return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ""}</svg>`;
 }
 
-const CATEGORY_ICONS = { car: "car", truck: "truck", tools: "wrench" };
+const CATEGORY_ICONS = { car: "car", truck: "truck", tools: "wrench", outdoor: "tent" };
 
 /* ------------------------------- Helpers ------------------------------- */
 
@@ -130,8 +131,6 @@ const Cart = (() => {
   } catch (e) {
     items = [];
   }
-  // Drop products that no longer exist (e.g. removed from products.js)
-  items = items.filter((i) => getProduct(i.id) && i.qty > 0);
 
   function save() {
     try {
@@ -143,6 +142,13 @@ const Cart = (() => {
   }
 
   return {
+    // Drop products that were removed from products.csv or no longer have a price
+    prune() {
+      items = items.filter((i) => {
+        const p = getProduct(i.id);
+        return p && p.price && i.qty > 0;
+      });
+    },
     lines() {
       return items.map((i) => {
         const product = getProduct(i.id);
@@ -189,12 +195,24 @@ function productBadge(p) {
 }
 
 function priceHtml(p) {
+  if (!p.price) return '<span class="price--ask">Price on request</span>';
   return `${money(p.price)}${p.oldPrice ? `<del>${money(p.oldPrice)}</del>` : ""}`;
+}
+
+function askPriceLink(p) {
+  return waLink(`Hi ${STORE.name}, what is the price of: ${p.name}? Is it in stock?`);
+}
+
+// Add-to-cart button, or a WhatsApp "Ask price" button when no price is set yet
+function buyButton(p) {
+  if (p.inStock === false) return `<button class="add-btn" type="button" disabled>${icon("x")}<span>Sold out</span></button>`;
+  if (!p.price)
+    return `<a class="add-btn add-btn--ask" href="${askPriceLink(p)}" target="_blank" rel="noopener">${icon("whatsapp")}<span>Ask price</span></a>`;
+  return `<button class="add-btn" type="button" data-add="${esc(p.id)}">${icon("plus")}<span>Add</span></button>`;
 }
 
 function productCard(p) {
   const url = productUrl(p);
-  const out = p.inStock === false;
   return `
     <article class="product-card reveal">
       <a class="product-card__media" href="${url}" aria-label="${esc(p.name)}">
@@ -208,9 +226,7 @@ function productCard(p) {
         <p class="product-card__desc">${esc(p.description)}</p>
         <div class="product-card__foot">
           <div class="price">${priceHtml(p)}</div>
-          <button class="add-btn" type="button" data-add="${esc(p.id)}" ${out ? "disabled" : ""}>
-            ${icon(out ? "x" : "plus")}<span>${out ? "Sold out" : "Add"}</span>
-          </button>
+          ${buyButton(p)}
         </div>
       </div>
     </article>`;
@@ -224,6 +240,7 @@ const NAV = [
   { id: "car", label: "Car Accessories", href: "car-accessories.html" },
   { id: "truck", label: "Truck Accessories", href: "truck-accessories.html" },
   { id: "tools", label: "Tools", href: "tools.html" },
+  { id: "outdoor", label: "Camping", href: "camping-outdoor.html" },
   { id: "about", label: "About", href: "about.html" },
   { id: "contact", label: "Contact", href: "contact.html" },
 ];
@@ -559,9 +576,21 @@ window.addEventListener("storage", (e) => {
 
 /* --------------------------------- Boot -------------------------------- */
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   renderHeader();
   renderFooter();
+  try {
+    await loadProducts();
+  } catch (err) {
+    console.error(err);
+    const main = $("main");
+    main.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="container"><div class="notice" style="margin:24px 0">${icon("info")}<span><strong>Products could not be loaded.</strong> ` +
+        `The product list (products.csv) only loads when the site is opened from a web server or web host, not by double-clicking the file. See README.md.</span></div></div>`
+    );
+  }
+  Cart.prune();
   renderCart();
   // Page-specific code (js/pages.js) registers itself on window.PAGE_INIT
   const init = window.PAGE_INIT && window.PAGE_INIT[document.body.dataset.page];
