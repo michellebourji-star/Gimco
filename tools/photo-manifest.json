@@ -1283,5 +1283,110 @@
     "category": "truck",
     "type": "filters",
     "batch": 12
+  },
+  {
+    "name": "oil-filter-hu514x",
+    "title": "Oil Filter HU514X (Mercedes W203/W209/W211, C180/C200)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu816zkit",
+    "title": "Oil Filter HU816ZKIT (BMW N20, F18/F20/F30)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu715-5x",
+    "title": "Oil Filter HU715/5X (BMW E60, X5)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-fuel-filter-wk962-7",
+    "title": "G-Zhong Fuel Filter WK962/7",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu6008z",
+    "title": "Oil Filter HU6008Z (Mercedes C63 AMG, W221/W222)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-oil-filter-lf9009",
+    "title": "G-Zhong Oil Filter LF9009",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-long-acting-oil-element",
+    "title": "G-Zhong Long-Acting Oil Filter Element (Yellow Box)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu8002zkit",
+    "title": "Oil Filter HU8002ZKIT (BMW E90/91/92, F10/F11, E84)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu612x",
+    "title": "Oil Filter HU612X (Peugeot Partner, Citro\u00ebn Berlingo)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu727-1x",
+    "title": "Oil Filter HU727/1X (Mercedes M111/M104)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-oil-filter-lf670",
+    "title": "G-Zhong Oil Filter LF670",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-oil-filter-lf16015",
+    "title": "G-Zhong Oil Filter LF16015",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "oil-filter-hu925-4x",
+    "title": "Oil Filter HU925/4X (BMW M50/M52, E36/E46/E39, X5)",
+    "category": "car",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-long-acting-fuel-element",
+    "title": "G-Zhong Long-Acting Fuel Filter Element (Yellow Box)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
+  },
+  {
+    "name": "g-zhong-fuel-filter-r90p",
+    "title": "G-Zhong Fuel Filter / Water Separator R90P",
+    "category": "truck",
+    "type": "filters",
+    "batch": 13
   }
 ]
