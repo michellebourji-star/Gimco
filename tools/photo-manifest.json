@@ -103,5 +103,110 @@
     "category": "truck",
     "type": "truck-lights",
     "batch": 1
+  },
+  {
+    "name": "getsun-fuel-injector-cleaner",
+    "title": "Getsun Fuel Injector Cleaner G-1098 (250 ml)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 2
+  },
+  {
+    "name": "camping-cooking-pot",
+    "title": "Camping Cooking Pot with Lid",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 2
+  },
+  {
+    "name": "getsun-carb-cleaner",
+    "title": "Getsun Carb Cleaner G-2045 (450 ml)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 2
+  },
+  {
+    "name": "portable-camping-burner-7-head",
+    "title": "Portable Camping Gas Burner (7 Burners)",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 2
+  },
+  {
+    "name": "stainless-travel-mug",
+    "title": "Stainless Steel Travel Mug",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 2
+  },
+  {
+    "name": "qilin-cordless-blower",
+    "title": "Qilin Cordless Blower with MAX+ Battery",
+    "category": "tools",
+    "type": "power-tools",
+    "batch": 2
+  },
+  {
+    "name": "camping-kettle",
+    "title": "Aluminium Camping Kettle",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 2
+  },
+  {
+    "name": "getsun-de-rust-penetrant",
+    "title": "Getsun De-Rust Lubricating Penetrant (450 ml)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 2
+  },
+  {
+    "name": "getsun-car-wax",
+    "title": "Getsun Car Wax G-7078 (473 ml)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 2
+  },
+  {
+    "name": "cob-led-inspection-light",
+    "title": "Rechargeable COB LED Inspection Light",
+    "category": "tools",
+    "type": "work-lights",
+    "batch": 2
+  },
+  {
+    "name": "truck-led-tail-light-arrow",
+    "title": "Truck LED Tail Light with Arrow Indicator",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 2
+  },
+  {
+    "name": "truck-led-tail-light-reflector",
+    "title": "Truck LED Tail Light with Reflectors",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 2
+  },
+  {
+    "name": "puratech-high-mileage-supplement",
+    "title": "Puratech High Mileage Oil Change Supplement (355 ml)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 2
+  },
+  {
+    "name": "rechargeable-spotlight-tripod",
+    "title": "Rechargeable LED Spotlight with Tripod",
+    "category": "tools",
+    "type": "work-lights",
+    "batch": 2
+  },
+  {
+    "name": "portable-gas-stove-bdz-155a",
+    "title": "Portable Gas Stove BDZ-155-A",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 2
   }
 ]
