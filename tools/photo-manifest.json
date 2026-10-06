@@ -1714,5 +1714,111 @@
     "category": "tools",
     "type": "air-tools",
     "batch": 16
+  },
+  {
+    "name": "fixta-laser-level-pro3",
+    "title": "Fixta Laser Level Pro 3 with Tape Measure (250 cm)",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 17
+  },
+  {
+    "name": "heavy-duty-hose-clamps",
+    "title": "Heavy-Duty T-Bolt Hose Clamps",
+    "category": "tools",
+    "type": "hardware",
+    "batch": 17
+  },
+  {
+    "name": "combination-pliers-yellow",
+    "title": "Combination Pliers (Yellow & Black Grip)",
+    "category": "tools",
+    "type": "pliers",
+    "batch": 17
+  },
+  {
+    "name": "torx-bit-socket-set-blue",
+    "title": "Torx Bit Socket Set (Blue Case)",
+    "category": "tools",
+    "type": "wrenches",
+    "batch": 17
+  },
+  {
+    "name": "truck-led-tail-light-clear-red",
+    "title": "Truck LED Tail Light \u2013 Clear & Red Sequential",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 17
+  },
+  {
+    "name": "truck-side-lamp-green-arrow-2",
+    "title": "Truck LED Side Lamp \u2013 Green Arrow (photo 2)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 17,
+    "possibleDuplicateOf": "truck-side-lamp-green-arrow"
+  },
+  {
+    "name": "marseille-tape-measure-5m",
+    "title": "Marseille Tape Measure 5 m x 25 mm",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 17
+  },
+  {
+    "name": "truck-led-tail-light-multi",
+    "title": "Truck LED Combination Tail Light (Multi-Function)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 17
+  },
+  {
+    "name": "rgb-ambient-light-strip-remote",
+    "title": "RGB Interior Ambient Light Strip with Remote",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 17
+  },
+  {
+    "name": "adjustable-oil-filter-wrench-blue",
+    "title": "Adjustable Oil Filter Wrench (Blue Handle)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 17
+  },
+  {
+    "name": "led-tailgate-light-strip",
+    "title": "LED Tailgate Light Strip with Turn Signal",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 17
+  },
+  {
+    "name": "torx-key-set-long",
+    "title": "Long Torx Key Set (T10\u2013T50)",
+    "category": "tools",
+    "type": "wrenches",
+    "batch": 17
+  },
+  {
+    "name": "amber-led-side-marker-wired",
+    "title": "Amber LED Side Marker Light with Wires",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 17
+  },
+  {
+    "name": "socket-set-46pc-red",
+    "title": "46-Piece Socket & Bit Set (Red Case)",
+    "category": "tools",
+    "type": "wrenches",
+    "batch": 17
+  },
+  {
+    "name": "locking-pliers-curved",
+    "title": "Curved Jaw Locking Pliers",
+    "category": "tools",
+    "type": "pliers",
+    "batch": 17
   }
 ]
