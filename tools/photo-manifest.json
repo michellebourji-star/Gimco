@@ -753,5 +753,110 @@
     "category": "car",
     "type": "car-care",
     "batch": 7
+  },
+  {
+    "name": "detailing-brush-set-5pc",
+    "title": "Detailing Brush Set (5 pcs, Red & Black)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 8
+  },
+  {
+    "name": "shamood-solid-air-freshener-fruit",
+    "title": "Shamood Solid Air Freshener Tin \u2013 Fruit Scent",
+    "category": "car",
+    "type": "air-fresheners",
+    "batch": 8
+  },
+  {
+    "name": "stainless-wire-brush-white",
+    "title": "Stainless Steel Wire Brush (White Handle)",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 8
+  },
+  {
+    "name": "horsehair-leather-brush",
+    "title": "Horsehair Leather & Upholstery Brush",
+    "category": "car",
+    "type": "car-care",
+    "batch": 8
+  },
+  {
+    "name": "rcozy-phone-holder-blue",
+    "title": "Rcozy Universal Car Phone Holder \u2013 Gooseneck (Blue)",
+    "category": "car",
+    "type": "phone-holders",
+    "batch": 8
+  },
+  {
+    "name": "airpro-helmet-air-freshener",
+    "title": "Airpro Helmet Car Air Freshener \u2013 Romantic Encounter (2 Refills)",
+    "category": "car",
+    "type": "air-fresheners",
+    "batch": 8
+  },
+  {
+    "name": "rcozy-phone-holder-yellow",
+    "title": "Rcozy Universal Car Phone Holder \u2013 Suction (Yellow)",
+    "category": "car",
+    "type": "phone-holders",
+    "batch": 8
+  },
+  {
+    "name": "drill-brush-attachment-set",
+    "title": "Drill Brush Attachment Set with Extension",
+    "category": "car",
+    "type": "car-care",
+    "batch": 8
+  },
+  {
+    "name": "tire-inflator-chuck-dual-head",
+    "title": "Dual-Head Tire Inflator Chuck",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 8
+  },
+  {
+    "name": "brass-wire-brush-white",
+    "title": "Brass Wire Brush (White Handle)",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 8
+  },
+  {
+    "name": "nylon-detail-brush-white",
+    "title": "Nylon Detail Brush (White Handle)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 8
+  },
+  {
+    "name": "vent-dashboard-brushes",
+    "title": "Vent & Dashboard Cleaning Brushes (Pair)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 8
+  },
+  {
+    "name": "paint-brush-1-inch",
+    "title": "1\" Paint Brush (Blue Handle)",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 8
+  },
+  {
+    "name": "shamood-vent-stick-air-freshener",
+    "title": "Shamood Solid Essential Oil Vent Stick Air Freshener",
+    "category": "car",
+    "type": "air-fresheners",
+    "batch": 8
+  },
+  {
+    "name": "shamood-vent-clip-air-freshener",
+    "title": "Shamood Vent Clip Air Freshener \u2013 Orchard (2-Pack)",
+    "category": "car",
+    "type": "air-fresheners",
+    "batch": 8
   }
 ]
