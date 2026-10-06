@@ -1,0 +1,56 @@
+/* ==========================================================================
+   STORE SETTINGS
+   --------------------------------------------------------------------------
+   Edit the values below to change your business details everywhere on the
+   website (header, footer, contact page, checkout, WhatsApp links...).
+   ========================================================================== */
+
+const STORE = {
+  name: "GIMCO",
+  subtitle: "Auto & Fuel",
+  tagline: "Gas station · Car & truck accessories · Tools",
+
+  // Phone number as it should be DISPLAYED on the site
+  phone: "(555) 123-4567",
+  // Phone number used for "tap to call" links (digits only, with country code)
+  phoneLink: "+15551234567",
+  // WhatsApp number: digits only, with country code, no "+" or spaces
+  whatsapp: "15551234567",
+  email: "orders@gimco-auto.com",
+
+  address: {
+    line1: "1250 Main Street",
+    line2: "Springfield, ST 12345",
+  },
+  // Text used to search Google Maps for the map on the homepage/contact page
+  mapQuery: "1250 Main Street, Springfield",
+
+  hours: [
+    { days: "Monday – Friday", time: "6:00 AM – 10:00 PM" },
+    { days: "Saturday", time: "7:00 AM – 10:00 PM" },
+    { days: "Sunday", time: "8:00 AM – 8:00 PM" },
+  ],
+  hoursNote: "Fuel pumps open 24/7",
+
+  // Leave a link empty ("") to hide that icon
+  social: {
+    facebook: "https://facebook.com/",
+    instagram: "https://instagram.com/",
+    tiktok: "https://tiktok.com/",
+    youtube: "",
+  },
+
+  currencySymbol: "$",
+  // Orders at or above this amount get free local delivery (set 0 to hide)
+  freeDeliveryOver: 75,
+
+  // Large photos used around the site. Replace with your own photos, e.g.
+  // "images/hero.jpg" after copying the file into the images folder.
+  images: {
+    hero: "https://images.unsplash.com/photo-1545262810-77515befe149?auto=format&fit=crop&w=2000&q=80",
+    car: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80",
+    truck: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
+    tools: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=1200&q=80",
+    about: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1400&q=80",
+  },
+};

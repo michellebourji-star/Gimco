@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="800" height="800">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="75%">
+<stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e7e8eb"/>
+</radialGradient>
+<radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+<stop offset="0" stop-color="#000" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3a3a41"/><stop offset="1" stop-color="#141417"/>
+</linearGradient>
+<linearGradient id="darkH" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#18181b"/><stop offset=".5" stop-color="#3b3b42"/><stop offset="1" stop-color="#18181b"/>
+</linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f1f2f4"/><stop offset=".45" stop-color="#b9bdc5"/><stop offset=".55" stop-color="#9ea3ad"/><stop offset="1" stop-color="#d9dce1"/>
+</linearGradient>
+<linearGradient id="metalH" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#9ea3ad"/><stop offset=".5" stop-color="#eef0f2"/><stop offset="1" stop-color="#9ea3ad"/>
+</linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#ef3b41"/><stop offset="1" stop-color="#b3141a"/>
+</linearGradient>
+<linearGradient id="redH" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#a3121a"/><stop offset=".5" stop-color="#ec333a"/><stop offset="1" stop-color="#a3121a"/>
+</linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#2b3445"/><stop offset=".6" stop-color="#0f141c"/><stop offset="1" stop-color="#1b2230"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#d9e6ee" stop-opacity=".9"/><stop offset=".3" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#b7c7d2" stop-opacity=".9"/>
+</linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f6c66b"/><stop offset="1" stop-color="#c98a1c"/>
+</linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#8a5a33"/><stop offset=".5" stop-color="#c08a5a"/><stop offset="1" stop-color="#8a5a33"/>
+</linearGradient>
+<linearGradient id="led" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cfe3ff"/>
+</linearGradient>
+</defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<ellipse cx="215" cy="314" rx="140" ry="14" fill="url(#shadow)"/>
+<ellipse cx="150" cy="232" rx="78" ry="78" fill="url(#red)"/>
+<ellipse cx="150" cy="232" rx="60" ry="60" fill="none" stroke="#a3121a" stroke-width="2"/>
+<ellipse cx="150" cy="232" rx="44" ry="44" fill="none" stroke="#a3121a" stroke-width="2"/>
+<ellipse cx="150" cy="232" rx="26" ry="26" fill="#e7e8eb" stroke="#a3121a" stroke-width="3"/>
+<path d="M220 200q40 0 70 30" stroke="url(#red)" stroke-width="28" fill="none"/>
+<g transform="rotate(30 290 240)">
+<rect x="252" y="218" width="84" height="44" rx="8" fill="url(#metal)" stroke="#8a8f99" stroke-width="2"/>
+<rect x="262" y="226" width="64" height="28" rx="14" fill="url(#dark)"/>
+<rect x="320" y="232" width="56" height="16" rx="8" fill="url(#dark)"/>
+</g>
+<path d="M110 140q-10-40 20-44t26 24" stroke="url(#metal)" stroke-width="9" fill="none" stroke-linecap="round"/>
+<rect x="134" y="132" width="32" height="12" rx="4" fill="#d71920"/>
+</svg>
