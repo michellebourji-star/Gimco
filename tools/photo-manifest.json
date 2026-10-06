@@ -1176,5 +1176,112 @@
     "type": "interior",
     "batch": 11,
     "possibleDuplicateOf": "car-vacuum-12v-blue-box"
+  },
+  {
+    "name": "g-zhong-air-dryer-ff5116",
+    "title": "G-Zhong Air Dryer Filter FF5116",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-fuel-filter-ff5488",
+    "title": "G-Zhong Fuel Filter FF5488 (Cummins 3959612)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-fuel-filter-fs1040",
+    "title": "G-Zhong Fuel Filter / Water Separator FS1040 (Cummins 4331009)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-fuel-filter-612630080087",
+    "title": "G-Zhong Fuel Filter 612630080087 / 1000422382",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-jx0811c1",
+    "title": "G-Zhong Oil Filter JX0811C1",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-jxd1104",
+    "title": "G-Zhong Oil Filter JXD1104",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-477556",
+    "title": "G-Zhong Oil Filter 477556 / 21707132 (By-Pass)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-ca000-1012011a",
+    "title": "G-Zhong Oil Filter CA000-1012011A (JX0810, Yuchai)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-fuel-filter-ff5327-box",
+    "title": "G-Zhong Fuel Filter FF5327 (with box)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12,
+    "possibleDuplicateOf": "guangzhong-fuel-filter-ff5327"
+  },
+  {
+    "name": "g-zhong-fuel-filter-fs1280",
+    "title": "G-Zhong Fuel Filter FS1280",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-jx0813",
+    "title": "G-Zhong Oil Filter JX0813 / 186-1012000",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-jx0818a",
+    "title": "G-Zhong Oil Filter JX0818A / 61000070005",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-jx0813-2",
+    "title": "G-Zhong Oil Filter JX0813 (photo 2)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12,
+    "possibleDuplicateOf": "g-zhong-oil-filter-jx0813"
+  },
+  {
+    "name": "g-zhong-fuel-filter-fs1000",
+    "title": "G-Zhong Fuel Filter / Water Separator FS1000",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
+  },
+  {
+    "name": "g-zhong-oil-filter-15607-2190",
+    "title": "G-Zhong Oil Filter 15607-2190 (Hino)",
+    "category": "truck",
+    "type": "filters",
+    "batch": 12
   }
 ]
