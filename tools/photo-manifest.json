@@ -1605,5 +1605,114 @@
     "category": "tools",
     "type": "tire-tools",
     "batch": 15
+  },
+  {
+    "name": "truck-side-lamp-green-arrow",
+    "title": "Truck LED Side Lamp \u2013 Green Arrow (Clear Lens)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 16
+  },
+  {
+    "name": "renken-oil-filter-90915-20001",
+    "title": "Renken Oil Filter 90915-20001 (Toyota)",
+    "category": "car",
+    "type": "filters",
+    "batch": 16
+  },
+  {
+    "name": "chain-oil-filter-wrench",
+    "title": "Chain Oil Filter Wrench (21 mm)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 16
+  },
+  {
+    "name": "getsun-carb-cleaner-3",
+    "title": "Getsun Carb Cleaner G-2045 (photo 3)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 16,
+    "possibleDuplicateOf": "getsun-carb-cleaner"
+  },
+  {
+    "name": "getsun-foam-out-engine-degreaser-2",
+    "title": "Getsun Foam Out! Degreaser (photo 2)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 16,
+    "possibleDuplicateOf": "getsun-foam-out-engine-degreaser"
+  },
+  {
+    "name": "rechargeable-mosquito-killer-lamp",
+    "title": "Rechargeable Mosquito Killer Lamp",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 16
+  },
+  {
+    "name": "renken-oil-filter-md069782",
+    "title": "Renken Oil Filter MD069782 (Mitsubishi)",
+    "category": "car",
+    "type": "filters",
+    "batch": 16
+  },
+  {
+    "name": "foam-sprayer-tank-stainless",
+    "title": "Stainless Steel Pneumatic Foam Sprayer Tank",
+    "category": "car",
+    "type": "car-care",
+    "batch": 16
+  },
+  {
+    "name": "renken-oil-filter-90915-30001",
+    "title": "Renken Oil Filter 90915-30001 (Toyota)",
+    "category": "car",
+    "type": "filters",
+    "batch": 16
+  },
+  {
+    "name": "renken-oil-filter-ls468",
+    "title": "Renken Oil Filter LS468",
+    "category": "car",
+    "type": "filters",
+    "batch": 16
+  },
+  {
+    "name": "renken-oil-filter-md069782-2",
+    "title": "Renken Oil Filter MD069782 (photo 2)",
+    "category": "car",
+    "type": "filters",
+    "batch": 16,
+    "possibleDuplicateOf": "renken-oil-filter-md069782"
+  },
+  {
+    "name": "getsun-4x-tire-foam-2",
+    "title": "Getsun 4-X Tire Foam (photo 2)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 16,
+    "possibleDuplicateOf": "getsun-4x-tire-foam"
+  },
+  {
+    "name": "amber-side-marker-lights-wired",
+    "title": "Amber Side Marker Lights with Wiring (Set of 4)",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 16
+  },
+  {
+    "name": "wet-dry-vacuum-zd2119ts-25l",
+    "title": "Wet & Dry Blower Vacuum ZD2119TS 25 L (1400 W)",
+    "category": "tools",
+    "type": "power-tools",
+    "batch": 16
+  },
+  {
+    "name": "prima-air-orbital-sander",
+    "title": "Prima Air Random Orbital Sander",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 16
   }
 ]
