@@ -1388,5 +1388,114 @@
     "category": "truck",
     "type": "filters",
     "batch": 13
+  },
+  {
+    "name": "oil-drain-plug-bolt",
+    "title": "Oil Drain Plug Bolt with Washer",
+    "category": "car",
+    "type": "engine-parts",
+    "batch": 14
+  },
+  {
+    "name": "tire-scrub-brush-gray",
+    "title": "Tire & Carpet Scrub Brush (Gray Grip)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 14
+  },
+  {
+    "name": "oil-filter-hu7044z",
+    "title": "Oil Filter HU7044Z (Mercedes W205, A205/C205/S205, W176/177)",
+    "category": "car",
+    "type": "filters",
+    "batch": 14
+  },
+  {
+    "name": "getsun-dashboard-leather-wax",
+    "title": "Getsun Dashboard & Leather Wax G-2017",
+    "category": "car",
+    "type": "car-care",
+    "batch": 14
+  },
+  {
+    "name": "hbjx-air-blow-gun-2",
+    "title": "HBJX Air Blow Gun (studio photo)",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 14,
+    "possibleDuplicateOf": "hbjx-air-blow-gun",
+    "preferredPhoto": true
+  },
+  {
+    "name": "getsun-foam-out-engine-degreaser",
+    "title": "Getsun Foam Out! Engine Surface Foam Degreaser",
+    "category": "car",
+    "type": "car-care",
+    "batch": 14
+  },
+  {
+    "name": "oil-filter-hu7025z",
+    "title": "Oil Filter HU7025Z (Mercedes M276/M278, W204/W212/W218)",
+    "category": "car",
+    "type": "filters",
+    "batch": 14
+  },
+  {
+    "name": "getsun-carb-cleaner-2",
+    "title": "Getsun Carb Cleaner G-2045 (studio photo)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 14,
+    "possibleDuplicateOf": "getsun-carb-cleaner",
+    "preferredPhoto": true
+  },
+  {
+    "name": "oil-filter-hu8008z",
+    "title": "Oil Filter HU8008Z (Range Rover Vogue/Sport, LR4)",
+    "category": "car",
+    "type": "filters",
+    "batch": 14
+  },
+  {
+    "name": "oil-filter-hu8007z",
+    "title": "Oil Filter HU8007Z (BMW N63, E70 X5, E71 X6, F01)",
+    "category": "car",
+    "type": "filters",
+    "batch": 14
+  },
+  {
+    "name": "car-cover-silver",
+    "title": "Waterproof Silver Car Cover",
+    "category": "car",
+    "type": "interior",
+    "batch": 14
+  },
+  {
+    "name": "getsun-4x-tire-foam",
+    "title": "Getsun 4-X Tire Foam G-1006",
+    "category": "car",
+    "type": "car-care",
+    "batch": 14
+  },
+  {
+    "name": "besita-combination-pliers",
+    "title": "Besita Combination Pliers (Red & Black)",
+    "category": "tools",
+    "type": "pliers",
+    "batch": 14
+  },
+  {
+    "name": "getsun-air-freshener-jasmine",
+    "title": "Getsun Air Freshener Spray \u2013 Jasmine (300 ml)",
+    "category": "car",
+    "type": "air-fresheners",
+    "batch": 14
+  },
+  {
+    "name": "vacuum-dusting-brush-attachment",
+    "title": "Vacuum Round Dusting Brush Attachment",
+    "category": "tools",
+    "type": "power-tools",
+    "batch": 14
   }
 ]
