@@ -316,5 +316,119 @@
     "category": "car",
     "type": "floor-mats",
     "batch": 3
+  },
+  {
+    "name": "floor-mats-universal-grid",
+    "title": "Universal Rubber Floor Mats \u2013 Grid Design (No Logo)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-renault-quilted",
+    "title": "Rubber Floor Mats \u2013 Renault Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-mazda-red-ring",
+    "title": "Rubber Floor Mats \u2013 Mazda Red Ring",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-chevrolet-red-ring",
+    "title": "Rubber Floor Mats \u2013 Chevrolet Red Ring",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-bmw-quilted-3",
+    "title": "Rubber Floor Mats \u2013 BMW Quilted Design (photo 3)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4,
+    "possibleDuplicateOf": "floor-mats-bmw-quilted"
+  },
+  {
+    "name": "floor-mats-honda-quilted",
+    "title": "Rubber Floor Mats \u2013 Honda Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-hyundai-quilted",
+    "title": "Rubber Floor Mats \u2013 Hyundai Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-bmw-grid",
+    "title": "Rubber Floor Mats \u2013 BMW Grid Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-universal-quilted",
+    "title": "Universal Rubber Floor Mats \u2013 Quilted Design (No Logo)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-land-rover-red-ring",
+    "title": "Rubber Floor Mats \u2013 Land Rover Red Ring",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-daihatsu-quilted",
+    "title": "Rubber Floor Mats \u2013 Daihatsu Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-kia-quilted",
+    "title": "Rubber Floor Mats \u2013 Kia Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-land-rover-quilted",
+    "title": "Rubber Floor Mats \u2013 Land Rover Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-subaru-grid",
+    "title": "Rubber Floor Mats \u2013 Subaru Grid Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
+  },
+  {
+    "name": "floor-mats-bmw-m-2",
+    "title": "Rubber Floor Mats \u2013 BMW M Design (photo 2)",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4,
+    "possibleDuplicateOf": "floor-mats-bmw-m"
+  },
+  {
+    "name": "floor-mats-toyota-quilted",
+    "title": "Rubber Floor Mats \u2013 Toyota Quilted Design",
+    "category": "car",
+    "type": "floor-mats",
+    "batch": 4
   }
 ]
