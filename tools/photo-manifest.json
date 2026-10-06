@@ -1820,5 +1820,111 @@
     "category": "tools",
     "type": "pliers",
     "batch": 17
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7201",
+    "title": "Xiangyu Oil Filter XYO-7201 (Toyota 90915-10001 / YZZE1)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "truck-led-tail-light-diamond",
+    "title": "Truck LED Tail Light \u2013 Diamond Sequential",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7211",
+    "title": "Xiangyu Oil Filter XYO-7211 (Toyota 15600-41010 / JX0818B)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "red-rotating-beacon-light",
+    "title": "Red Rotating Beacon Warning Light",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7205",
+    "title": "Xiangyu Oil Filter XYO-7205 (Toyota 90915-20001 / 03002)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7401",
+    "title": "Xiangyu Oil Filter XYO-7401 (Nissan 15208-31U00)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7211-2",
+    "title": "Xiangyu Oil Filter XYO-7211 (photo 2)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18,
+    "possibleDuplicateOf": "xiangyu-oil-filter-xyo-7211"
+  },
+  {
+    "name": "truck-side-lamp-red-ring",
+    "title": "Truck LED Side Lamp \u2013 Red Ring (Clear Lens)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 18
+  },
+  {
+    "name": "led-pod-light-4-lens",
+    "title": "4-Lens LED Pod Spot Light",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7005",
+    "title": "Xiangyu Oil Filter XYO-7005 (VW 03C 115 561B)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7202",
+    "title": "Xiangyu Oil Filter XYO-7202 (Toyota 90915-YZZB2)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7209",
+    "title": "Xiangyu Oil Filter XYO-7209 (Toyota 90915-YZZC5 / YZZA5)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7300",
+    "title": "Xiangyu Oil Filter XYO-7300 (Mitsubishi MD135737)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7400",
+    "title": "Xiangyu Oil Filter XYO-7400 (Nissan 15208-65F00)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
+  },
+  {
+    "name": "xiangyu-oil-filter-xyo-7302",
+    "title": "Xiangyu Oil Filter XYO-7302 (Mitsubishi MD136466)",
+    "category": "car",
+    "type": "filters",
+    "batch": 18
   }
 ]
