@@ -542,5 +542,110 @@
     "category": "car",
     "type": "floor-mats",
     "batch": 5
+  },
+  {
+    "name": "led-dome-cab-lights",
+    "title": "LED Dome Cab Marker Lights (5 Colors)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 6
+  },
+  {
+    "name": "iron-padlock-brass",
+    "title": "Iron Padlock with 3 Keys (Brass Finish)",
+    "category": "tools",
+    "type": "hardware",
+    "batch": 6
+  },
+  {
+    "name": "car-jump-starter-kit",
+    "title": "Portable Car Jump Starter & Power Bank Kit",
+    "category": "car",
+    "type": "emergency",
+    "batch": 6
+  },
+  {
+    "name": "menzerna-metal-polish",
+    "title": "Menzerna Metal Polish \u2013 Universal Polishing Cream",
+    "category": "car",
+    "type": "car-care",
+    "batch": 6
+  },
+  {
+    "name": "brass-battery-terminals",
+    "title": "Brass Battery Terminal Clamps (Pair)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 6
+  },
+  {
+    "name": "roadside-emergency-kit-bag",
+    "title": "Roadside Emergency Kit (Jumper Cables, Tow Strap, Gloves, Flashlight)",
+    "category": "car",
+    "type": "emergency",
+    "batch": 6
+  },
+  {
+    "name": "tubeless-tire-repair-kit",
+    "title": "Tubeless Tire Repair Kit",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 6
+  },
+  {
+    "name": "oil-filter-cap-wrench-set",
+    "title": "Oil Filter Cap Wrench Set (Aluminium Case)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 6
+  },
+  {
+    "name": "adjustable-wrench-red",
+    "title": "Adjustable Wrench with Red Comfort Grip",
+    "category": "tools",
+    "type": "wrenches",
+    "batch": 6
+  },
+  {
+    "name": "dashboard-cob-strobe-light",
+    "title": "Dashboard COB Strobe Light (12V, Suction Mount)",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 6
+  },
+  {
+    "name": "air-pressure-gauge",
+    "title": "Air Pressure Gauge (0\u20131 MPa)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 6
+  },
+  {
+    "name": "iron-padlock-black",
+    "title": "Iron Padlock with 2 Keys (Black)",
+    "category": "tools",
+    "type": "hardware",
+    "batch": 6
+  },
+  {
+    "name": "car-disco-led-light",
+    "title": "Car Interior Rotating Disco LED Light",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 6
+  },
+  {
+    "name": "heat-gun-2000w",
+    "title": "Heat Gun 2000W FQX-802",
+    "category": "tools",
+    "type": "power-tools",
+    "batch": 6
+  },
+  {
+    "name": "trim-removal-tool-kit",
+    "title": "Car Trim & Panel Removal Tool Kit",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 6
   }
 ]
