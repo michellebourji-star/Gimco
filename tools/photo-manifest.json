@@ -1,0 +1,107 @@
+[
+  {
+    "name": "truck-corner-led-lamp-red",
+    "title": "Truck Corner LED Side Lamp (Red)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "led-work-light-30-led",
+    "title": "Rectangular LED Work Light \u2013 30 LED",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "led-work-light-12-led",
+    "title": "Rectangular LED Work Light \u2013 12 LED",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "truck-side-marker-lamps-amber-red",
+    "title": "Truck Side Marker Lamps (Amber & Red)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "auto-led-headlight-kit",
+    "title": "Auto LED Headlight Bulb Kit",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 1
+  },
+  {
+    "name": "led-work-light-8-module",
+    "title": "Rectangular LED Work Light \u2013 8 Module",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "amber-led-marker-strips",
+    "title": "Amber LED Marker Light Strips (Pair)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "led-interior-bulbs-set",
+    "title": "LED Interior Festoon & T10 Bulbs",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 1
+  },
+  {
+    "name": "led-work-light-48-led",
+    "title": "Rectangular LED Work Light \u2013 48 LED",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "truck-led-tail-light",
+    "title": "Truck LED Combination Tail Light",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "green-round-lamp",
+    "title": "Green Round Lamp",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "amber-oval-marker-light",
+    "title": "Amber Oval LED Marker Light (Chrome)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "3r-reflective-warning-strips",
+    "title": "3R Reflective Warning Strips (3R-2150)",
+    "category": "car",
+    "type": "emergency",
+    "batch": 1
+  },
+  {
+    "name": "led-license-plate-light",
+    "title": "LED License Plate Light (Chrome)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  },
+  {
+    "name": "led-button-marker-lights",
+    "title": "Mini LED Button Marker Lights (5 Colors)",
+    "category": "truck",
+    "type": "truck-lights",
+    "batch": 1
+  }
+]
