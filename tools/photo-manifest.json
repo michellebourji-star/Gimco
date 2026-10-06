@@ -963,5 +963,112 @@
     "category": "car",
     "type": "car-care",
     "batch": 9
+  },
+  {
+    "name": "hose-spray-nozzle",
+    "title": "Garden Hose Spray Nozzle (Multi-Pattern)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "microfiber-towel-blue",
+    "title": "Microfiber Cleaning Towel (Blue)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "pressure-washer-extension-wand",
+    "title": "Pressure Washer Extension Wand (Quick Connect)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "car-wash-mop-yellow",
+    "title": "Car Wash Mop with Telescopic Handle (Yellow Head)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10,
+    "possibleDuplicateOf": "car-wash-mop-telescopic"
+  },
+  {
+    "name": "microfiber-towel-gray",
+    "title": "Plush Microfiber Drying Towel (Gray)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "microfiber-towel-purple",
+    "title": "Microfiber Cleaning Towel (Purple)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "glass-cleaning-cloth-green",
+    "title": "Microfiber Glass Cleaning Cloth (Lime)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "microfiber-towel-green",
+    "title": "Microfiber Cleaning Towel (Green)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "air-pressure-regulator",
+    "title": "Air Pressure Regulator Valve",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 10
+  },
+  {
+    "name": "chenille-wash-mop-head",
+    "title": "Chenille Microfiber Wash Mop Head (Blue)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "snow-foam-lance-1l",
+    "title": "Snow Foam Lance with 1 L Bottle",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "horsehair-brush-wooden",
+    "title": "Horsehair Brush (Wooden Block)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
+  },
+  {
+    "name": "horsehair-leather-brush-2",
+    "title": "Horsehair Leather & Upholstery Brush (photo 2)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10,
+    "possibleDuplicateOf": "horsehair-leather-brush"
+  },
+  {
+    "name": "beijilang-sleeping-bag",
+    "title": "BeiJiLang Sleeping Bag",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 10
+  },
+  {
+    "name": "microfiber-towel-yellow",
+    "title": "Plush Microfiber Towel (Yellow)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 10
   }
 ]
