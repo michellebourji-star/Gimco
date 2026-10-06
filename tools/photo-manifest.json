@@ -858,5 +858,110 @@
     "category": "car",
     "type": "air-fresheners",
     "batch": 8
+  },
+  {
+    "name": "telescopic-window-cleaner",
+    "title": "Telescopic Window Cleaner & Squeegee",
+    "category": "car",
+    "type": "car-care",
+    "batch": 9
+  },
+  {
+    "name": "tow-rope-white-shackles",
+    "title": "Heavy-Duty Tow Rope with Shackles (White & Red)",
+    "category": "car",
+    "type": "emergency",
+    "batch": 9
+  },
+  {
+    "name": "memory-foam-seat-cushion",
+    "title": "Memory Foam Seat Cushion (Mesh Cover)",
+    "category": "car",
+    "type": "interior",
+    "batch": 9
+  },
+  {
+    "name": "ngk-iridium-spark-plug",
+    "title": "NGK Iridium IX Spark Plug",
+    "category": "car",
+    "type": "engine-parts",
+    "batch": 9
+  },
+  {
+    "name": "car-ashtray-led",
+    "title": "Car Ashtray with Blue LED Light",
+    "category": "car",
+    "type": "interior",
+    "batch": 9
+  },
+  {
+    "name": "12v-electric-air-pump",
+    "title": "12V Electric Air Pump (Inflatables)",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 9
+  },
+  {
+    "name": "joeba-tow-strap-orange",
+    "title": "Joeba Heavy-Duty Tow Strap (Orange)",
+    "category": "car",
+    "type": "emergency",
+    "batch": 9
+  },
+  {
+    "name": "window-sun-shade-roller",
+    "title": "Retractable Window Sun Shade",
+    "category": "car",
+    "type": "interior",
+    "batch": 9
+  },
+  {
+    "name": "seat-gap-organizer-brown",
+    "title": "Seat Gap Organizer with Cup Holder (Brown Leather)",
+    "category": "car",
+    "type": "interior",
+    "batch": 9
+  },
+  {
+    "name": "tow-strap-yellow-hooks",
+    "title": "Tow Strap with Steel Hooks (Yellow)",
+    "category": "car",
+    "type": "emergency",
+    "batch": 9
+  },
+  {
+    "name": "ngk-spark-plug-v-power",
+    "title": "NGK V-Power Spark Plug",
+    "category": "car",
+    "type": "engine-parts",
+    "batch": 9
+  },
+  {
+    "name": "denso-spark-plug",
+    "title": "Denso Spark Plug",
+    "category": "car",
+    "type": "engine-parts",
+    "batch": 9
+  },
+  {
+    "name": "car-wash-mop-telescopic",
+    "title": "Car Wash Mop with Telescopic Handle",
+    "category": "car",
+    "type": "car-care",
+    "batch": 9
+  },
+  {
+    "name": "tie-down-strap-red",
+    "title": "Tie-Down Strap with Buckle (Red)",
+    "category": "truck",
+    "type": "tie-downs",
+    "batch": 9
+  },
+  {
+    "name": "fantasticxml-grease-200g",
+    "title": "FantasticXml Synthetic Automotive Grease (200 g)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 9
   }
 ]
