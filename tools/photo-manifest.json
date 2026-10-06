@@ -1070,5 +1070,111 @@
     "category": "car",
     "type": "car-care",
     "batch": 10
+  },
+  {
+    "name": "pressure-washer-gun-red-trigger",
+    "title": "Pressure Washer Gun (Red Trigger)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 11
+  },
+  {
+    "name": "hydraulic-hose-3-8",
+    "title": "Hydraulic Hose 3/8\" SAE100 R1AT (180 bar)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 11
+  },
+  {
+    "name": "guangzhong-fuel-filter-ff5327",
+    "title": "Guangzhong Fuel Filter FF5327",
+    "category": "truck",
+    "type": "engine-parts",
+    "batch": 11
+  },
+  {
+    "name": "turbo-rotary-nozzle-blue",
+    "title": "Turbo Rotary Nozzle with Quick Connector (Blue)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 11
+  },
+  {
+    "name": "nitrile-work-gloves",
+    "title": "Forte Nitrile-Coated Work Gloves",
+    "category": "tools",
+    "type": "hand-tools",
+    "batch": 11
+  },
+  {
+    "name": "tubeless-tire-valve-stem",
+    "title": "Tubeless Tire Valve Stem (TR413)",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 11
+  },
+  {
+    "name": "car-vacuum-12v-blue-box",
+    "title": "High-Power Portable Car Vacuum 12V (Blue Box)",
+    "category": "car",
+    "type": "interior",
+    "batch": 11
+  },
+  {
+    "name": "shop-vac-wet-dry",
+    "title": "Shop-Vac Wet & Dry Vacuum",
+    "category": "tools",
+    "type": "power-tools",
+    "batch": 11
+  },
+  {
+    "name": "folding-table-pink",
+    "title": "Folding Aluminium Table (Pink)",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 11
+  },
+  {
+    "name": "pressure-washer-gun-yellow-trigger",
+    "title": "Pressure Washer Gun (Yellow Trigger)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 11
+  },
+  {
+    "name": "high-pressure-hose-coil",
+    "title": "High-Pressure Washer Hose (Coil)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 11
+  },
+  {
+    "name": "windshield-squeegee-sponge",
+    "title": "Windshield Squeegee with Sponge",
+    "category": "car",
+    "type": "car-care",
+    "batch": 11
+  },
+  {
+    "name": "new-feng-tai-tire-repair-seals",
+    "title": "New Feng Tai Tire Repair Seals BR204",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 11
+  },
+  {
+    "name": "leadiiir-tire-patches-ur55g",
+    "title": "Leadiiir Tire Repair Patches UR-5.5G (80 pcs)",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 11
+  },
+  {
+    "name": "car-vacuum-12v-green-box",
+    "title": "High-Power Portable Car Vacuum 12V (Green Box)",
+    "category": "car",
+    "type": "interior",
+    "batch": 11,
+    "possibleDuplicateOf": "car-vacuum-12v-blue-box"
   }
 ]
