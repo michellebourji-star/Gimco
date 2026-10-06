@@ -1497,5 +1497,113 @@
     "category": "tools",
     "type": "power-tools",
     "batch": 14
+  },
+  {
+    "name": "getsun-sticker-remover",
+    "title": "Getsun Sticker Remover (450 ml)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15
+  },
+  {
+    "name": "rtv-silicone-gasket-maker-black-2",
+    "title": "RTV Silicone Gasket Maker 1199B (photo 2)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15,
+    "possibleDuplicateOf": "rtv-silicone-gasket-maker-black"
+  },
+  {
+    "name": "stainless-bbq-grill-tray",
+    "title": "Stainless Steel BBQ Grill Tray with Mesh Rack",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 15
+  },
+  {
+    "name": "pop-up-shower-tent",
+    "title": "Pop-Up Privacy / Shower Tent (Blue)",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 15
+  },
+  {
+    "name": "getsun-carnauba-car-wax",
+    "title": "Getsun Carnauba Car Wax Paste G-3118",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15
+  },
+  {
+    "name": "getsun-de-rust-penetrant-2",
+    "title": "Getsun De-Rust Penetrant (studio photo)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15,
+    "possibleDuplicateOf": "getsun-de-rust-penetrant"
+  },
+  {
+    "name": "pressure-washer-nozzle-tips",
+    "title": "Pressure Washer Nozzle Tips 15\u00b0 & 40\u00b0",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15
+  },
+  {
+    "name": "mibao-ab-glue",
+    "title": "Mibao AB Glue \u2013 Modified Acrylic Adhesive (20 g)",
+    "category": "tools",
+    "type": "hardware",
+    "batch": 15
+  },
+  {
+    "name": "auto-lamp-bulbs-ba15s",
+    "title": "Auto Lamp Bulbs (Single Contact, Box)",
+    "category": "car",
+    "type": "car-lights",
+    "batch": 15
+  },
+  {
+    "name": "tire-valve-core-tool",
+    "title": "Tire Valve Core Removal Tool (3 pcs)",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 15
+  },
+  {
+    "name": "wireless-party-speaker-ttd2809",
+    "title": "Wireless Party Speaker 8.5\" x2 (TTD-2809)",
+    "category": "outdoor",
+    "type": "camping",
+    "batch": 15
+  },
+  {
+    "name": "yuken-hydraulic-hose-assembly",
+    "title": "Yuken DIN Hydraulic Hose Assembly",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 15
+  },
+  {
+    "name": "getsun-car-wax-2",
+    "title": "Getsun Car Wax G-7078 (studio photo)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15,
+    "possibleDuplicateOf": "getsun-car-wax"
+  },
+  {
+    "name": "getsun-dashboard-polish-peach",
+    "title": "Getsun Silicone Dashboard Polish \u2013 Peach G-7102G",
+    "category": "car",
+    "type": "car-care",
+    "batch": 15
+  },
+  {
+    "name": "tire-valve-core-wrench",
+    "title": "Tire Valve Core Wrench (Long Handle)",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 15
   }
 ]
