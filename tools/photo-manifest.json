@@ -647,5 +647,111 @@
     "category": "tools",
     "type": "hand-tools",
     "batch": 6
+  },
+  {
+    "name": "long-screwdrivers-yellow",
+    "title": "Long Screwdrivers \u2013 Phillips & Flat (Yellow Handle)",
+    "category": "tools",
+    "type": "screwdrivers",
+    "batch": 7
+  },
+  {
+    "name": "wooden-detail-brush",
+    "title": "Wooden Handle Detail Brush",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
+  },
+  {
+    "name": "hbjx-air-blow-gun",
+    "title": "HBJX Air Blow Gun with Extension Nozzle",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 7
+  },
+  {
+    "name": "nylon-scrub-brush",
+    "title": "Nylon Scrub Brush with Comfort Grip",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
+  },
+  {
+    "name": "mainto-air-blow-gun-blue",
+    "title": "Mainto Air Blow Gun with Quick Coupler (Blue)",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 7
+  },
+  {
+    "name": "window-tint-squeegee-kit",
+    "title": "Window Tint & Wrap Squeegee Kit with Blades",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
+  },
+  {
+    "name": "rtv-silicone-gasket-maker-black",
+    "title": "RTV Silicone Gasket Maker 1199B \u2013 Black (85 g)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
+  },
+  {
+    "name": "mainto-air-blow-gun-blue-2",
+    "title": "Mainto Air Blow Gun (Blue) \u2013 photo 2",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 7,
+    "possibleDuplicateOf": "mainto-air-blow-gun-blue"
+  },
+  {
+    "name": "air-blow-gun-666-black",
+    "title": "Air Blow Gun 666 (Black)",
+    "category": "tools",
+    "type": "air-tools",
+    "batch": 7
+  },
+  {
+    "name": "tire-inflator-gauge-gun",
+    "title": "Tire Inflator Gun with Pressure Gauge",
+    "category": "tools",
+    "type": "tire-tools",
+    "batch": 7
+  },
+  {
+    "name": "long-wheel-brush-yellow",
+    "title": "Long Handle Wheel Brush (Yellow Bristles)",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
+  },
+  {
+    "name": "besita-oil-filter-cap-set",
+    "title": "Besita Oil Filter Cap Wrench Set (Red Case)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 7
+  },
+  {
+    "name": "unaite-oil-filter-cap-set",
+    "title": "Unaite Oil Filter Cap Wrench Set (Aluminium Case)",
+    "category": "tools",
+    "type": "maintenance",
+    "batch": 7
+  },
+  {
+    "name": "hybrid-wiper-blade",
+    "title": "Hybrid Windshield Wiper Blade",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
+  },
+  {
+    "name": "curved-crevice-brush",
+    "title": "Curved Crevice Cleaning Brush",
+    "category": "car",
+    "type": "car-care",
+    "batch": 7
   }
 ]
