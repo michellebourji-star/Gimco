@@ -1,4 +1,4 @@
-# GIMCO Auto & Fuel — Website
+# GIMCO Petroleum — Website
 
 A clean, fast, mobile-friendly online shop for a gas station and automotive
 accessories store. It's plain HTML, CSS and JavaScript: no build step, no database,

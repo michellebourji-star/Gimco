@@ -7,36 +7,32 @@
 
 const STORE = {
   name: "GIMCO",
-  subtitle: "Auto & Fuel",
+  subtitle: "Petroleum",
   tagline: "Gas station · Car & truck accessories · Tools",
 
   // Phone number as it should be DISPLAYED on the site
-  phone: "(555) 123-4567",
+  phone: "+961 71 921 027",
   // Phone number used for "tap to call" links (digits only, with country code)
-  phoneLink: "+15551234567",
+  phoneLink: "+96171921027",
   // WhatsApp number: digits only, with country code, no "+" or spaces
-  whatsapp: "15551234567",
-  email: "orders@gimco-auto.com",
+  whatsapp: "96171921027",
+  email: "Gimco_Petroliom@hotmail.com",
 
   address: {
-    line1: "1250 Main Street",
-    line2: "Springfield, ST 12345",
+    line1: "Sfayla",
+    line2: "Lebanon",
   },
   // Text used to search Google Maps for the map on the homepage/contact page
-  mapQuery: "1250 Main Street, Springfield",
+  mapQuery: "Gimco Petroleum, Sfayla, Lebanon",
 
-  hours: [
-    { days: "Monday – Friday", time: "6:00 AM – 10:00 PM" },
-    { days: "Saturday", time: "7:00 AM – 10:00 PM" },
-    { days: "Sunday", time: "8:00 AM – 8:00 PM" },
-  ],
-  hoursNote: "Fuel pumps open 24/7",
+  hours: [{ days: "Every day", time: "6:00 AM – 9:00 PM" }],
+  hoursNote: "Open 7 days a week",
 
   // Leave a link empty ("") to hide that icon
   social: {
-    facebook: "https://facebook.com/",
-    instagram: "https://instagram.com/",
-    tiktok: "https://tiktok.com/",
+    facebook: "",
+    instagram: "https://www.instagram.com/gimco.petroleum",
+    tiktok: "https://www.tiktok.com/@gimcopetroleum",
     youtube: "",
   },
 
