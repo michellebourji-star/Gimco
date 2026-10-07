@@ -52,8 +52,8 @@ Open it in **Excel** or **Google Sheets**, make your changes, and save it again 
 Name, phone, **WhatsApp number**, email, address, opening hours, social media links,
 free-delivery threshold and the large banner photos. Changes appear everywhere on the site.
 
-> ⚠️ The phone, WhatsApp number, email and address are placeholders. Replace them
-> before going live, because orders are sent to the WhatsApp number and email in this file.
+> Orders and "Ask price" messages are sent to the WhatsApp number and email in this file,
+> so keep them up to date.
 
 ## Product photos
 Your 273 photos were converted to clean, square JPGs in `images/products/`.
