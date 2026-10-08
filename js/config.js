@@ -24,7 +24,7 @@ const STORE = {
   },
   // Text used to search Google Maps for the map on the homepage/contact page
   // (can also be exact coordinates, e.g. "33.8512, 35.6431")
-  mapQuery: "Gimco Petroleum, Sfayla, Lebanon",
+  mapQuery: "33.924338,35.709672",
   // Your Google Maps link, used by "Get directions" and the address links
   mapUrl: "https://maps.app.goo.gl/5kg9iABxA772QjGe7",
 
