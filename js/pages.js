@@ -25,6 +25,11 @@ function bindStoreInfo(root = document) {
     maplink: (el) => (el.href = mapLink()),
     map: (el) =>
       (el.innerHTML = `<iframe src="${mapEmbedUrl()}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to ${esc(STORE.name)}"></iframe>`),
+    src: (el) => {
+      const src = STORE.images[el.dataset.image];
+      if (src) el.src = src;
+      else el.closest("figure")?.remove();
+    },
     bg: (el) => {
       const src = STORE.images[el.dataset.image];
       if (src) el.style.backgroundImage = `url("${src}")`;

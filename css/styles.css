@@ -484,8 +484,28 @@ p {
   padding-bottom: 80px;
 }
 
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
 .hero__content {
   max-width: 640px;
+}
+
+.hero__photo {
+  margin: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.hero__photo img {
+  width: 100%;
+  height: auto;
 }
 
 .hero__badge {
@@ -2454,6 +2474,9 @@ a.contact-card:hover {
   .cat-grid {
     grid-template-columns: 1fr;
   }
+  .hero__grid {
+    grid-template-columns: 1fr;
+  }
   .cat-card {
     min-height: 300px;
   }
@@ -2543,6 +2566,9 @@ a.contact-card:hover {
   }
   .section-head {
     margin-bottom: 28px;
+  }
+  .hero__grid {
+    gap: 36px;
   }
   .hero .container {
     min-height: auto;
