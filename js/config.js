@@ -46,7 +46,7 @@ const STORE = {
   // Large photos used around the site. Replace with your own photos, e.g.
   // "images/hero.jpg" after copying the file into the images folder.
   images: {
-    hero: "images/station-front.jpg",
+    hero: "images/station-night.jpg",
     car: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80",
     truck: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
     tools: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=1200&q=80",
