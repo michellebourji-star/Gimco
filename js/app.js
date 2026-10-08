@@ -101,6 +101,7 @@ function mapEmbedUrl() {
 }
 
 function mapLink() {
+  if (STORE.mapUrl) return STORE.mapUrl;
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(STORE.mapQuery)}`;
 }
 

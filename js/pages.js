@@ -469,7 +469,7 @@ PAGE_INIT.product = () => {
         </div>
         <div class="assurances">
           <div>${icon("store")} Pick up in store — usually ready within the hour</div>
-          <div>${icon("truck")} Local delivery available${STORE.freeDeliveryOver ? ` · free over ${money(STORE.freeDeliveryOver)}` : ""}</div>
+          <div>${icon("truck")} Local delivery available${STORE.freeDeliveryOver ? ` · free over ${money(STORE.freeDeliveryOver)}` : " (delivery fee applies)"}</div>
           <div>${icon("shield")} Quality brands, easy returns within 30 days</div>
         </div>
       </div>
@@ -523,7 +523,7 @@ PAGE_INIT.checkout = () => {
       <div class="order-summary__lines">
         <div class="summary-line"><span>Subtotal</span><span>${money(subtotal)}</span></div>
         <div class="summary-line"><span>${delivery ? "Delivery" : "Store pickup"}</span><span>${!delivery ? "Free" : free ? "Free" : "Confirmed by phone"}</span></div>
-        <div class="summary-line summary-line--total"><span>Total</span><span>${money(subtotal)}</span></div>
+        <div class="summary-line summary-line--total"><span>Total${delivery && !free ? " (+ delivery)" : ""}</span><span>${money(subtotal)}</span></div>
       </div>
       ${delivery ? `<div style="margin-top:14px">${freeDeliveryHtml(subtotal)}</div>` : ""}
       <a class="link-arrow" style="margin-top:16px" href="#" data-open="cart">Edit cart ${icon("arrow")}</a>`;

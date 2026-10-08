@@ -23,7 +23,10 @@ const STORE = {
     line2: "Lebanon",
   },
   // Text used to search Google Maps for the map on the homepage/contact page
+  // (can also be exact coordinates, e.g. "33.8512, 35.6431")
   mapQuery: "Gimco Petroleum, Sfayla, Lebanon",
+  // Your Google Maps link, used by "Get directions" and the address links
+  mapUrl: "https://maps.app.goo.gl/5kg9iABxA772QjGe7",
 
   hours: [{ days: "Every day", time: "6:00 AM – 9:00 PM" }],
   hoursNote: "Open 7 days a week",
@@ -37,8 +40,8 @@ const STORE = {
   },
 
   currencySymbol: "$",
-  // Orders at or above this amount get free local delivery (set 0 to hide)
-  freeDeliveryOver: 75,
+  // Orders at or above this amount get free local delivery (0 = delivery is never free)
+  freeDeliveryOver: 0,
 
   // Large photos used around the site. Replace with your own photos, e.g.
   // "images/hero.jpg" after copying the file into the images folder.
