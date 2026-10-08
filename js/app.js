@@ -331,7 +331,7 @@ function renderFooter() {
         <div class="footer-grid">
           <div>
             ${logoHtml()}
-            <p>Your neighborhood gas station and automotive store. Quality accessories, tools and everyday driving essentials at fair prices.</p>
+            <p>A family-run gas station and automotive store in Sfayla since 1997. Quality accessories, tools and everyday driving essentials, with personal service.</p>
             <div class="social">${socialHtml()}</div>
           </div>
           <div>
