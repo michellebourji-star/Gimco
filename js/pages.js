@@ -470,7 +470,7 @@ PAGE_INIT.product = () => {
         <div class="assurances">
           <div>${icon("store")} Pick up in store — usually ready within the hour</div>
           <div>${icon("truck")} Local delivery available${STORE.freeDeliveryOver ? ` · free over ${money(STORE.freeDeliveryOver)}` : " (delivery fee applies)"}</div>
-          <div>${icon("shield")} Quality brands, easy returns within 30 days</div>
+          <div>${icon("shield")} Quality brands · All sales are final (no returns)</div>
         </div>
       </div>
     </div>`;
